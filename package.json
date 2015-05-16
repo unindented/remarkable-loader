@@ -25,12 +25,12 @@
   },
 
   "dependencies": {
-    "remarkable":   "^1.6.0",
-    "highlight.js": "^8.4.0"
+    "remarkable":   "^1.6",
+    "highlight.js": "^8.5"
   },
 
   "devDependencies": {
     "nodeunit": "^0.9",
-    "cheerio":  "^0.18"
+    "cheerio":  "^0.19"
   }
 }
