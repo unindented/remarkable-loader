@@ -1,36 +1,30 @@
 {
-  "name":        "remarkable-loader",
+  "name": "remarkable-loader",
   "description": "Parse source as Markdown.",
-  "version":     "0.1.0",
-
+  "version": "0.1.0",
   "author": {
-    "name":  "Daniel Perez Alvarez",
+    "name": "Daniel Perez Alvarez",
     "email": "unindented@gmail.com",
-    "url":   "http://unindented.org/"
+    "url": "http://unindented.org/"
   },
-
   "repository": {
     "type": "git",
-    "url":  "git://github.com/unindented/remarkable-loader.git"
+    "url": "git://github.com/unindented/remarkable-loader.git"
   },
-
   "keywords": [
     "remarkable",
     "markdown",
     "webpack"
   ],
-
   "scripts": {
     "test": "./node_modules/.bin/nodeunit test/loader.js"
   },
-
   "dependencies": {
-    "remarkable":   "^1.6",
-    "highlight.js": "^8.5"
+    "remarkable": "^1.6",
+    "highlight.js": "^9.0.0"
   },
-
   "devDependencies": {
     "nodeunit": "^0.9",
-    "cheerio":  "^0.19"
+    "cheerio": "^0.19"
   }
 }
