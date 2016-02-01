@@ -25,6 +25,6 @@
   },
   "devDependencies": {
     "nodeunit": "^0.9",
-    "cheerio": "^0.19"
+    "cheerio": "^0.20.0"
   }
 }
