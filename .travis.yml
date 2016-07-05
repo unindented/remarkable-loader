@@ -1,4 +1,11 @@
 language: node_js
 node_js:
-  - '0.12'
-  - '0.10'
+  - '6'
+
+deploy:
+  provider: npm
+  email: unindented@gmail.com
+  api_key:
+    secure: g8snGfV2j29nBD0WwnXfHex9sR/AFkK2KAmbiHhNDZA+IfiRNhTE+z1aaI8+9wgDsgymsvHWDIplGFM4xPXmJ9U/vM95mhy/cWpML9EehOsASkIcH4Pk44PSKDxBGb6mNOQVZoJcvkf/P2T0ZokQq/2+mIYgwlV/h8YQvcMeohg=
+  on:
+    tags: true
